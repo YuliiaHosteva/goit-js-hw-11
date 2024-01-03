@@ -117,6 +117,16 @@
   transform: scale(1.025);
 }
 
+li {
+  border: 1px solid #808080;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+li:hover {
+  box-shadow: 0 0 10px rgba(15, 169, 177, 0.5);
+}
+
+
 .info {
   display: flex;
   align-items: flex-start;
